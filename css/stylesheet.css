@@ -1,0 +1,1237 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    height: 100vh;
+    width: 100%;
+}
+#thebar{
+    z-index: 99;
+    padding: 0;
+}
+
+/* Men and women font */
+.font{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.womenfont{
+    font-weight: lighter;
+}
+/* navbar colour change */
+#bgc{
+    color: rgb(13, 14, 13);
+}
+
+/* logo margin */
+.logo{
+    margin-left: 120px;
+    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+/* navlist margin */
+.diffclass{
+    margin-left: 20%;
+}
+.women{
+    margin-left: 40%;
+}
+.search{
+    margin-left: 300px;
+}
+.shop{
+    margin-left: 100px;
+}
+
+/* styling maintext1 */
+.main{
+    padding-bottom: 60px;
+}
+.maintext1{
+    padding: 0px;
+    width: 9%;
+    height: 4vh;
+    margin: 0;
+    margin-left: 118px;
+    background-color: black;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: 250px;
+}
+.maintext2{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 118px;
+    width: 80%;
+    letter-spacing: 9px;
+    
+}
+.maintext2 h1{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 100px;
+    
+}
+.maintext3{
+    border: rgb(29, 28, 28) 1px solid;
+    width: 40%;
+    padding: 10px 10px;
+    margin-top: 90px;
+    margin-left: 118px;
+
+}
+.menp{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 0px;
+    padding-left: 14px;
+}
+
+/* styling image in main */
+.mtimg{
+    padding: 0;
+    height: 94.5vh;
+}
+.main-part2{
+    background-color: #dfcab9;
+    position: relative;
+    bottom: 62px;
+    padding: 0;
+    margin: 0;
+    height: 120%;
+}
+.image2{
+    width: 70%;
+    position: relative;
+    left: 100px;
+    top: 510px;
+    padding-bottom: 0;
+    margin-bottom: 0%;
+}
+.image3{
+    width: 60%;
+    height: 90%;
+    position: relative;
+    left: 180px;
+    bottom: 280px;
+}
+
+
+/* cards */
+.gm-con{
+    margin-top: 150px;
+    padding: 0px 120px;
+}
+.m-con{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Mutual image 1,2,3 styling */
+.img1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.span1{
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.span1 span{
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* For Image 1 */
+.imgg1{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    margin-right: 59px;
+    height: 60vh;
+    width: 30%;
+}
+.con1{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* image 2 */
+.imgg2{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    margin-right: 59px;
+    height: 60vh;
+    width: 30%;
+}
+.con2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* image 3 */
+.imgg3{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    height: 60vh;
+    width: 30%;
+}
+.con3{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* image 4 */
+.m-con1{
+    padding: 0;
+    margin: 0;
+    margin-top: 90px;
+    height: 100%;
+    width: 100%;
+}
+.imgg4{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    margin-right: 59px;
+    height: 60vh;
+    width: 30%;
+}
+.con4{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* image 5 */
+.imgg5{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    margin-right: 59px;
+    height: 60vh;
+    width: 30%;
+}
+.con5{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* image 6 */
+.imgg6{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    height: 60vh;
+    width: 30%;
+}
+.con6{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* image 7 */
+.m-con2{
+    padding: 0;
+    margin: 0;
+    margin-top: 90px;
+    height: 100%;
+    width: 100%;
+}
+.imgg7{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    margin-right: 59px;
+    height: 60vh;
+    width: 30%;
+}
+.con7{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* image 8 */
+.imgg8{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    margin-right: 59px;
+    height: 60vh;
+    width: 30%;
+}
+.con8{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* image 9 */
+.imgg9{
+    padding: 0;
+    padding-bottom: 40px;
+    margin: 0;
+    height: 60vh;
+    width: 30%;
+}
+.con9{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Explore Past Collections */
+.pc{
+    padding: 108px;
+    padding-bottom: 0;
+}
+.pcr{
+    border-bottom: rgba(239, 239, 243, 0.829) 0.2px solid;
+    padding-bottom: 110px;
+}
+.pctext{
+    
+}
+.pctext h1{
+    padding: 0;
+    margin-left: 0;
+    font-size: 70px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    line-height: 100px;
+}
+.pctext p{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: rgba(114, 114, 116, 0.829);
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+/* Subscribe */
+.sub{
+    margin-top: 50px;
+    margin-bottom: 180px;
+    text-align: center;
+}
+.subtext{
+    letter-spacing: 4px;
+    line-height: 0px;
+    margin-bottom: 70px;
+    padding: 0;
+}
+.subtext h4{
+    line-height: 40px;
+    padding: 0;
+}
+.subform{
+    width: 40%;
+    margin-left: 30%;
+}
+.subform input{
+    width: 40%;
+    padding: 10px;
+    font-weight: lighter;
+}
+.subform span{
+    margin-right: 25px;
+}
+.subform button{
+    margin-left: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+}
+.sbtn{
+    margin-left: 20px;
+}
+
+
+/* footer */
+.footer{
+    background-color: #dfcab9;
+    padding: 0;
+}
+.ft1{
+    padding: 0;
+    margin: 0;
+}
+.ft1 h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Logo */
+.f-logo{
+    margin: 0;
+    padding: 30px 0px 0px 80px;
+}
+.f-logo a{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+/* Mens */
+.f-mens{
+    padding: 25px 0px 0px 90px;
+    margin: 0;
+}
+.f-mens li{
+    padding-top: 10px;
+}
+.ls1 a{
+    color: rgba(114, 114, 116, 0.829);
+}
+
+/* Women's */
+.f-womens{
+    padding: 25px 0px 0px 50px;
+    margin: 0;
+}
+.f-womens li{
+    padding-top: 10px;
+}
+.ls2 a{
+    color: rgba(114, 114, 116, 0.829);
+}
+
+/* site */
+.f-site{
+    padding: 25px 0px 0px 50px;
+    margin: 0;
+}
+.f-site li{
+    padding-top: 10px;
+}
+.ls3 a{
+    color: rgba(114, 114, 116, 0.829);
+}
+
+/* Support */
+.f-support{
+    padding: 25px 0px 0px 0px;
+    margin: 0;
+}
+.f-support li{
+    padding-top: 10px;
+}
+.ls4 a{
+    color: rgba(114, 114, 116, 0.829);
+}
+.f-accept{
+    padding: 25px 0px 0px 25px;
+    margin: 0;
+}
+.ls5{
+    display: flex;
+    font-size: 30px;
+}
+.ls5 a{
+    padding-right: 15px;
+}
+
+/* footer tail */
+.ft-tail{
+    padding: 0;
+    margin: 120px 0px 0px 0px;
+}
+.tail1{
+    padding: 0;
+}
+.sm-icons{
+    font-size: 20px;
+    display: flex;
+    padding: 0px 0px 0px 75px;
+}
+.sm-icons li{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (min-width: 350px) and (max-width: 575px) {
+    /* Navbar */
+    #thebar{
+        margin: 0;
+    }
+    .logo{
+        margin-left: 20px;
+        letter-spacing: 3px;
+    }
+
+
+    /* Main */
+    .main{
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 70px;
+    }
+    .mainrow{
+        padding: 0;
+    }
+    .main-part1{
+        padding: 0;
+    }
+    .maintext1{
+        padding: 0;
+        margin: 0px 0px 0px 40px;
+    }
+    .maintext2{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .maintext2 h1{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .maintext3{
+        border: rgb(29, 28, 28) 1px solid;
+        width: 60%;
+        padding: 10px 10px;
+        margin: 40px 0px 20px 40px;
+    }
+
+    /* main part 2 */
+    .mtimg{
+        padding: 0;
+        height: 80vh;
+    }
+    .main-part2{
+        background-color: #dfcab9;
+        position: relative;
+        bottom: 0px;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+    .image2{
+        width: 70%;
+        position: relative;
+        left: 90px;
+        top: 320px;
+        padding-bottom: 0;
+        margin-bottom: 0%;
+    }
+    .image3{
+        width: 50%;
+        height: 80%;
+        position: relative;
+        left: 160px;
+        bottom: 170px;
+    }
+
+    /* cards */
+    .gm-con{
+        padding: 0px 0px;
+    }
+    .imgg1{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;   
+    }
+    .imgg2{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+    .imgg3{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+    .m-con1{
+        padding: 0;
+        margin: 0;
+        margin-top: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .imgg4{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+    .imgg5{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+    .imgg6{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+    .m-con2{
+        padding: 0;
+        margin: 0;
+        margin-top: 0%;
+        height: 100%;
+        width: 100%;
+    }
+    .imgg7{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+    .imgg8{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+    .imgg9{
+        margin: 0% 0% 10% 15%;
+        height: 70vh;
+        width: 70%;
+    }
+
+    /* Explore Past Collections */
+    .pc{
+        padding: 0% 5%;
+        margin: 0;
+    }
+    .pcr{
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .pctext{
+        margin-bottom: 10%;
+    }
+    .pctext h1{
+        padding: 0;
+        margin-left: 0;
+        font-size: 60px;
+        letter-spacing: 3px;
+        margin-top: 0px;
+        line-height: 80px;
+    }
+    .pctext p{
+        margin: 0;
+        padding: 0;
+        margin-top: 25px;
+        text-decoration: underline;
+        color: rgba(114, 114, 116, 0.829);
+        line-height: 30px;
+        word-spacing: 2px;
+    }
+
+    /* Subscribe */
+    .sub{
+        margin-top: 80px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .subtext h4{
+        line-height: 40px;
+        padding: 0;
+    }
+    .subtext h4 br{
+        display: none;
+    }
+    .subform{
+        width: 80%;
+        margin-left: 10%;
+    }
+    /* footer */
+    .f-womens{
+        padding: 25px 0px 0px 90px;
+        margin: 0;
+    }
+    .f-site{
+        padding: 25px 0px 0px 90px;
+        margin: 0;
+    }
+    .f-support{
+        padding: 25px 0px 0px 90px;
+        margin: 0;
+    }
+    .f-accept{
+        padding: 25px 0px 0px 90px;
+        margin: 0;
+    }
+    .sm-icons{
+        font-size: 20px;
+        display: flex;
+        padding: 25px 0px 0px 90px;
+    }
+    .cpr{
+        padding: 25px 0px 0px 90px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    /* Nav-Bar */
+
+    #thebar{
+        padding: 0;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .diffclass{
+        margin-left: 130px;
+    }
+    .women{
+        margin-left: 10%;
+    }
+    .search{
+        margin-left: 140px;
+    }
+    .shop{
+        margin-left: 50px;
+    }
+
+    /* Main Styling */
+    .main{
+        padding-bottom: 3px;
+        margin-bottom: 0px;
+    }
+    .maintext1{
+        padding: 0px;
+        width: 15%;
+        height: 4vh;
+        margin: 0;
+        margin-left: 30px;
+        background-color: black;
+        text-align: center;
+        padding-top: 4px;
+        margin-top: 100px;
+    }
+    .maintext2{
+        padding: 0px;
+        margin: 0px;
+        margin-left: 30px;
+        width: 90%;
+        letter-spacing: 7px;
+        
+    }
+    .maintext2 h1{
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 60px;
+        
+    }
+    .maintext3{
+        border: rgb(29, 28, 28) 1px solid;
+        width: 80%;
+        padding: 10px 10px;
+        margin-top: 90px;
+        margin-left: 30px;
+    
+    }
+    .mtimg{
+        padding: 0;
+        height: 60vh;
+    }
+    .main-part2{
+        background-color: #dfcab9;
+        position: relative;
+        bottom: 57px;
+        padding: 0;
+        margin: 0;
+        height: 112%;
+        width: 100%;
+    }
+    .image2{
+        width: 80%;
+        position: relative;
+        left: 40px;
+        top: 300px;
+        padding-bottom: 0;
+        margin-bottom: 0%;
+    }
+    .image3{
+        width: 60%;
+        height: 70%;
+        position: relative;
+        left: 90px;
+        bottom: 63px;
+    }
+
+    /* cards */
+    .gm-con{
+        margin-top: 100px;
+        padding: 0% 5%;
+        margin-bottom: 100px;
+    }    
+    .imgg1{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg2{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 10px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg3{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 170px;
+        height: 60vh;
+        width: 47%;
+    }
+    .m-con1{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .imgg4{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg5{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 10px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg6{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-left: 170px;
+        margin-top: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+    .m-con2{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .imgg7{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 30px;
+        height: 60vh;
+        width: 47%;
+    } 
+    .imgg8{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 10px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg9{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-left: 170px;
+        margin-top: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+    /* Explore Past Collections */
+    .pc{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .pcr{
+        border-bottom: rgba(239, 239, 243, 0.829) 0.2px solid;
+        padding: 0;
+        padding-bottom: 10px;
+        margin: 0;
+        width: 100%;
+    }
+    .pctext{
+        margin: 0;
+        padding: 0;
+    }
+    .pctext h1{
+        padding: 0;
+        margin-left: 0;
+        font-size: 60px;
+        letter-spacing: 2px;
+        margin-top: 30px;
+        line-height: 70px;
+    }
+    .pctext p{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        text-decoration: underline;
+        color: rgba(114, 114, 116, 0.829);
+        line-height: 30px;
+        word-spacing: 2px;
+        width: 100%;
+    }
+    .pctext p br{
+        display: none;
+    }
+
+    /* Subscribe */
+    .sub{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .subform{
+        width: 60%;
+        margin-left: 15%;
+    }
+
+    /* Footer */
+
+    .f-logo{
+        margin: 0;
+        padding: 30px 0px 0px 0px;
+    }
+    .f-mens{
+        padding: 25px 0px 0px 30px;
+        margin: 0;
+    }
+    .f-womens{
+        padding: 25px 0px 0px 10px;
+        margin: 0;
+    }
+    .f-site{
+        padding: 25px 0px 0px 0px;
+        margin: 0;
+    }
+    .f-support{
+        padding: 25px 0px 0px 0px;
+        margin: 0;
+    }
+    .f-accept{
+        padding: 25px 0px 0px 0px;
+        margin: 0;
+    }
+    .ls5{
+        display: flex;
+        font-size: 20px;
+    }
+    .ls5 a{
+        padding-right: 10px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    #thebar{
+        padding: 0;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .diffclass{
+        margin-left: 130px;
+    }
+    .women{
+        margin-left: 40%;
+    }
+    .search{
+        margin-left: 180px;
+    }
+    .shop{
+        margin-left: 80px;
+    }
+    
+    /* Main Styling */
+    .main{
+        padding-bottom: 3px;
+        margin-bottom: 0px;
+    }
+    .maintext1{
+        padding: 0px;
+        width: 15%;
+        height: 4vh;
+        margin: 0;
+        margin-left: 30px;
+        background-color: black;
+        text-align: center;
+        padding-top: 4px;
+        margin-top: 100px;
+    }
+    .maintext2{
+        padding: 0px;
+        margin: 0px;
+        margin-left: 30px;
+        margin-top: 40px;
+        width: 90%;
+        letter-spacing: 7px;
+    }
+    .maintext2 h1{
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 80px;
+        
+    }
+    .maintext3{
+        border: rgb(29, 28, 28) 1px solid;
+        width: 80%;
+        padding: 10px 10px;
+        margin-top: 70px;
+        margin-left: 30px;
+    
+    }
+    .mtimg{
+        padding: 0;
+        height: 80vh;
+    }
+    .main-part2{
+        background-color: #dfcab9;
+        position: relative;
+        bottom: 57px;
+        padding: 0;
+        margin: 0;
+        height: 108.7%;
+        width: 100%;
+    }
+    .image2{
+        width: 70%;
+        position: relative;
+        left: 80px;
+        top: 400px;
+        padding-bottom: 0;
+        margin-bottom: 0%;
+    }
+    .image3{
+        width: 70%;
+        height: 80%;
+        position: relative;
+        left: 90px;
+        bottom: 135px;
+    }
+
+    /* cards */
+    .gm-con{
+        margin-top: 150px;
+        padding: 0% 5%;
+        margin-bottom: 100px;
+    }    
+    .imgg1{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg2{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 10px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg3{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 230px;
+        height: 60vh;
+        width: 47%;
+    }
+    .m-con1{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .imgg4{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg5{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 10px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg6{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-left: 230px;
+        margin-top: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+    .m-con2{
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .imgg7{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 30px;
+        height: 60vh;
+        width: 47%;
+    } 
+    .imgg8{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-right: 10px;
+        height: 60vh;
+        width: 47%;
+    }
+    .imgg9{
+        padding: 0;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-left: 230px;
+        margin-top: 30px;
+        height: 60vh;
+        width: 47%;
+    }
+     /* Explore Past Collections */
+    .pc{
+        padding: 0;
+        margin-top: 50px;
+    }
+    .pcr{
+        border-bottom: rgba(239, 239, 243, 0.829) 0.2px solid;
+        padding: 0;
+        padding-bottom: 50px;
+        margin: 0;
+        width: 100%;
+    }
+    .pctext{
+        margin: 0;
+        padding: 0;
+    }
+    .pctext h1{
+        padding: 0;
+        margin-left: 0;
+        font-size: 60px;
+        letter-spacing: 2px;
+        margin-top: 80px;
+        line-height: 70px;
+    }
+    .pctext p{
+        margin: 0;
+        padding: 0;
+        margin-top: 70px;
+        text-decoration: underline;
+        color: rgba(114, 114, 116, 0.829);
+        line-height: 30px;
+        word-spacing: 2px;
+        width: 100%;
+    }
+    .pctext p br{
+        display: none;
+    }
+
+    /* Subscribe */
+    .sub{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .subform{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    /* Footer */
+
+    .f-logo{
+        margin: 0;
+        padding: 30px 0px 0px 0px;
+    }
+    .f-mens{
+        padding: 25px 0px 0px 30px;
+        margin: 0;
+    }
+    .f-womens{
+        padding: 25px 0px 0px 10px;
+        margin: 0;
+    }
+    .f-site{
+        padding: 25px 0px 0px 0px;
+        margin: 0;
+    }
+    .f-support{
+        padding: 25px 0px 0px 0px;
+        margin: 0;
+    }
+    .f-accept{
+        padding: 25px 0px 0px 20px;
+        margin: 0;
+    }
+    .ls5{
+        display: flex;
+        font-size: 20px;
+    }
+    .ls5 a{
+        padding-right: 10px;
+    }
+
+
+
+
+
+
+
+}
