@@ -510,7 +510,9 @@ body{
         padding: 0;
     }
     .maintext1{
+        width: 15%;
         padding: 0;
+        padding-top: 5px;
         margin: 0px 0px 0px 40px;
     }
     .maintext2{
@@ -544,9 +546,10 @@ body{
     }
     .image2{
         width: 70%;
+        height: 30vh;
         position: relative;
-        left: 90px;
-        top: 320px;
+        left: 55px;
+        top:320px;
         padding-bottom: 0;
         margin-bottom: 0%;
     }
@@ -554,7 +557,7 @@ body{
         width: 50%;
         height: 80%;
         position: relative;
-        left: 160px;
+        left: 100px;
         bottom: 170px;
     }
 
@@ -564,17 +567,17 @@ body{
     }
     .imgg1{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;   
     }
     .imgg2{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
     .imgg3{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
     .m-con1{
@@ -587,17 +590,17 @@ body{
     
     .imgg4{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
     .imgg5{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
     .imgg6{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
     .m-con2{
@@ -609,17 +612,17 @@ body{
     }
     .imgg7{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
     .imgg8{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
     .imgg9{
         margin: 0% 0% 10% 15%;
-        height: 70vh;
+        height: 50vh;
         width: 70%;
     }
 
@@ -773,7 +776,7 @@ body{
         width: 80%;
         position: relative;
         left: 40px;
-        top: 300px;
+        top: 390px;
         padding-bottom: 0;
         margin-bottom: 0%;
     }
@@ -990,14 +993,18 @@ body{
     }
     .maintext1{
         padding: 0px;
-        width: 15%;
-        height: 4vh;
+        width: 20%;
+        height: 5vh;
         margin: 0;
         margin-left: 30px;
         background-color: black;
         text-align: center;
-        padding-top: 4px;
-        margin-top: 100px;
+        padding-top: 10px;
+        margin-top: 300px;
+    }
+    .maintext1 p{
+        font-size: 30px;
+        margin-top: 0px;
     }
     .maintext2{
         padding: 0px;
@@ -1017,7 +1024,7 @@ body{
         border: rgb(29, 28, 28) 1px solid;
         width: 80%;
         padding: 10px 10px;
-        margin-top: 70px;
+        margin-top: 100px;
         margin-left: 30px;
     
     }
@@ -1031,14 +1038,15 @@ body{
         bottom: 57px;
         padding: 0;
         margin: 0;
-        height: 108.7%;
+        height: 100%;
         width: 100%;
     }
     .image2{
         width: 70%;
+        height: 30vh;
         position: relative;
         left: 80px;
-        top: 400px;
+        top: 520px;
         padding-bottom: 0;
         margin-bottom: 0%;
     }
@@ -1047,7 +1055,7 @@ body{
         height: 80%;
         position: relative;
         left: 90px;
-        bottom: 135px;
+        bottom: 300px;
     }
 
     /* cards */
