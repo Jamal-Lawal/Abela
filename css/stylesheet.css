@@ -555,10 +555,12 @@ body{
     }
     .image3{
         width: 50%;
+        padding-bottom: 0;
         height: 80%;
         position: relative;
         left: 100px;
-        bottom: 170px;
+        bottom: 80px;
+        /* border: 2px solid red; */
     }
 
     /* cards */
